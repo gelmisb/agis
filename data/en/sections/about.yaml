@@ -8,25 +8,34 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Software Engineer
+designation: '"Even the darkest day can end up with a beautiful sunset"'
 # your company information
-company:
-  name: Example Co.
-  url: "https://www.example.com"
+# company:
+#   name: Example Co.
+#   url: "https://www.example.com"
 
 # your resume. this file path should be relative to you "static" directory
 resume: "files/resume.pdf"
 
 # a summary about you
-summary: 'I am a passionate software engineer with x years of working experience. I built OSS tools for [Kubernetes](https://kubernetes.io/) using GO. My tools help people to deploy their workloads in Kubernetes. Sometimes, I work on some fun projects such as writing a theme, etc.'
+summary: 'My name is Agrita Vindzanova and I am a Professional Photographer based in the heart of Dublin City, Ireland.
+Seeking beauty within places around me, I have realized that you do not have to travel overseas to find that perfect shot! I have travelled to different parts of Ireland pursuing my passion for exploring and experiencing the nature and beauty of this beautiful Island, which offers endless opportunities for adventure seekers like me.
+My biggest passion is to observe and capture the spectacular effects of Sunrise and Sunset in different locations. You will never get bored looking at the sky because it is ever - changing.'
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:
-- name: Github
-  icon: "fab fa-github"
+- name: Instagram
+  icon: "fab fa-instagram"
+  url: "https://www.github.com/example"
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://www.github.com/example"
+- name: Facebook
+  icon: "fab fa-facebook"
   url: "https://www.github.com/example"
 
+  
 # your soft skills
 # give the percentage between 50 to 100 with 5 intervals.
 # currently supported colors: blue, yellow, pink, green, sky, orange

@@ -13,8 +13,10 @@
   margin: 0;
   background-attachment: fixed;
   background-position: center;
-  /* transform: scale(); */
-  /* filter: blur(3px); */
+  background-position: no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
 }
 
