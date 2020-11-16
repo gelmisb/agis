@@ -27,6 +27,7 @@
     {{ if site.GoogleAnalytics }}
         {{ template "_internal/google_analytics_async.html" . }}
     {{ end }}
+    
   </head>
   <body data-spy="scroll" data-target="#top-navbar" data-offset="100">
 
@@ -47,6 +48,7 @@
       {{ range sort $sections "section.weight" }}
         {{ if .section.enable }}
           <div class="container-fluid section-holder d-flex {{ $background }}">
+            
             {{ if .section.template }}
               {{- partial .section.template . -}}
             {{ else }}

@@ -47,18 +47,18 @@
 /* --- state after scroll start --- */
 
 .final-navbar {
-  background-color: #f9fafc;
-  color: #1c2d41;
+  /* background-color: #f9fafc; */
+  color: #f9fafc;
   transition: all 0.3s ease-out;
 }
 
 .final-navbar .navbar-brand {
-  color: #1c2d41;
+  color: #f9fafc;
   font-weight: 600;
 }
 
 .final-navbar li a {
-  color: #1c2d41;
+  color: #f9fafc;
   font-weight: 500;
   transition: all 0.3s ease-out;
   border-bottom: 2px solid#F9FAFC;
